@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/ce0b32a229.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title> Great Music Player </title>
+    </head>
+    <body>
+        <header> 
+                <h2> Music Player </h2>
+           
+            
+            <div class="toggle-btn" id="toggleBtn">
+                <span class="dark-label">Dark</span>
+            </div>
+        </header>
+
+        <main>
+            <section id="All-Songs">
+
+                <form id="sForm">
+                    <label class="ff"> Filter By Genre: </label>
+                    <select id="sDDN">
+                      <option value="All" selected>All</option>
+                      <option value="Rock">Rock</option>
+                      <option value="Pop">Pop</option>
+                      <option value="Hip Hop">Hip Hop</option>
+                    </select>
+                  </form>
+
+                <div class="hel"> <h1> All Songs </h1></div>
+                <div class="lister">
+                    
+                </div>
+            </section>
+
+            <!-- Part 2 Part 2 Part 2 -->
+
+            <section id="middle">
+                <div class="songPhoto">
+                </div>
+
+                <audio class="voice" controls>
+                    <source src="Voice\baby.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+
+                  <div class="arr-Cont">
+                    <div class="arrow"> 
+                        <button class="ab-L"> <i class="fa-solid fa-arrow-left"></i> </button>
+                        <button class="ab-R"> <i class="fa-solid fa-arrow-right"></i> </button>
+                      </div>
+                  </div>
+
+                  <div class="add">
+                    <button class="aaa"> Add To Playlist</button>
+                  </div>
+            </section>
+
+            <!-- Part-3 Part-3 Part-3 -->
+
+            <section id="part3">
+                <div class="sea">
+                    <input type="text" id="search" placeholder="Enter Playlist Name">
+                    <button id="CP"> Create Playlist </button>
+                </div>
+
+                <div class="currPlay">
+                    <h3>Current Playlist </h3>
+                    <div class="remain">
+
+                    </div>
+                </div>
+
+                <div class="fup">
+                    <h3 id="aller">All Playlists </h3>
+                   
+                </div>
+                
+
+            </section>
+        </main>
+<script src="mp1.js"> </script>
+    </body>
+</html>
